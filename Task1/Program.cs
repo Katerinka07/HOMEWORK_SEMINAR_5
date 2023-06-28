@@ -24,7 +24,7 @@ void FillArray(int[] array)
 string PrintArray(int[] array)
 {
     string res = String.Empty;
-    res += "[ "; // Добавила при выводе массива на печать квадратные скобки и запятые.
+    res += "[ "; 
     for (int i = 0; i < array.Length - 1; i++)
     {
         res += array[i] + ", ";
