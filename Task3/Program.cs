@@ -47,6 +47,4 @@ double[] myArray = CreateArray(size);
 FillArray(myArray);
 PrintArray(myArray);
 double difference = DiffMaxMin(myArray);
-Console.WriteLine(
-    $"Разница между максимальным и минимальным элементом массива равна: {difference}"
-);
+Console.WriteLine ($"Разница между максимальным и минимальным элементом массива равна: {difference}");
